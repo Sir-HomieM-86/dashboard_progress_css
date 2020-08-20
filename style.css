@@ -1,0 +1,300 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	color: #e4e3e3;
+	font-family: 'Lexend Deca', sans-serif;
+	/*font-family: 'Montserrat', sans-serif;*/
+	/*color: #ff5f40;*/
+	/*Pink color: #fa26a0*/
+}
+
+/*color hunt examples
+https://colorhunt.co/palette/196240
+*/
+
+.fixed-top-menu {
+	position: fixed;
+	width: 100%;
+	min-height: 100px;
+	background-color: #204051;
+	box-shadow: 0px 1px 5px 0px black;
+	z-index: 5;
+}
+
+.main-content {
+	min-height: 100%;
+	width: 100%;
+	padding-top: 100px;
+	background-color: #84a9ac;
+}
+
+.main-info-row {
+	padding-right: 15px;
+	padding-top: 15px;
+}
+
+.main-info-div {
+	/*background-color: green;
+	border-radius: 10px;
+	margin: 20px;*/
+	padding-right: 0;
+	z-index: 1;
+}
+
+.main-info-div-content {
+	background-color: #3b6978;
+	border-radius: 10px;
+	padding: 15px;
+	margin-bottom: 15px;
+	/*border: solid 3px #204051;*/
+	/*margin: 2px;*/
+}
+
+.title-img {
+	width: 75px;
+}
+
+.title-font {
+	/*font-family: 'Merriweather', serif;*/
+	font-family: 'Germania One', cursive;
+	/*font-family: 'Berkshire Swash', cursive;*/
+	font-size: 40px;
+	color: #e4e3e3;
+	position: relative;
+	top: 8px;
+	margin: 0px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+
+h3 {
+	color: #fc5185;
+	font-size: 1.75rem;
+	/*color: #e4e3e3;*/
+	/*color: #e97171;*/
+}
+
+h4 {
+	font-size: 1.1rem;
+}
+
+/* Table style */
+
+.app-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.app-table td, .app-table th {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.app-table tbody tr {
+	background-color: #e4e3e3;
+	color: #204051;
+	font-size: 0.9rem;
+}
+
+.app-table thead {
+	font-size: 1rem;
+}
+
+.app-table tbody tr:nth-child(odd){background-color: #bfbfbf}
+
+.app-table tbody tr:hover {background-color: #84a9ac;}
+
+.app-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #204051;
+  color: #e4e3e3;
+}
+
+/*Heat map styling*/
+
+div.level-padding {
+	text-align: center;
+}
+
+.level-padding span {
+	display: inline-block;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+span.level3 {
+	font-size: 2rem;
+}
+
+span.level2 {
+	font-size: 1.3rem;
+}
+
+span.level1 {
+	font-size: 0.8rem;
+}
+
+/* Activity control styling */
+
+.activity-div {
+	position: relative;
+	width: 100%;
+	/*background-color: pink;*/
+}
+
+.activity-div::before {
+    border-radius: .25rem;
+    background-color: #204051;
+    bottom: 0;
+    content: '';
+    left: 31px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    width: 4px;
+}
+
+.activity-label {
+	display: inline-block;
+	position: relative;
+	z-index: auto;
+	background-color: #dc3545;
+	padding: 4px;
+	border-radius: 4px;
+	margin-bottom: 15px;
+}
+
+.activity-item {
+	position: relative;
+	background-color: #204051;
+	left: 60px;
+	right: 0px;
+	width: calc(100% - 60px);
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+
+/* activity item icon */
+
+.activity-icon {
+	border-radius: 50%;
+	font-size: 15px;
+	height: 30px;
+	left: -42px;
+	line-height: 30px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 30px;
+}
+
+.icon-blue {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.icon-green {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.icon-purple {
+	color: #fff;
+    background-color: #6f42c1;
+}
+
+.vertical-line {
+	position: absolute;
+	/*display: inline-block;*/
+	display: none;
+	width: 4px;
+	height: 100%;
+	background-color: pink;
+	left: 13px;
+}
+
+/* End of activity item icon */
+
+.activity-heading-text {
+	font-size: 1rem;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0;
+}
+
+.activity-heading {
+	border-bottom: 1px solid #84a9ac;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.activity-heading-no-border {
+	padding: 10px 0;
+}
+
+.activity-item-time {
+	color: #999;
+	float: right;
+	font-size: 12px;
+}
+
+.activity-item-body {
+	padding: 10px;
+}
+
+/* Footer section */
+
+.footer-section {
+    background-color: #204051;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.footer-section p{
+    color: #e4e3e3;
+    /*font-family: 'Germania One', cursive;*/
+    font-weight: bold;
+	margin: 0;
+}
+
+.footer-icon {
+    color: #e4e3e3;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 520px) {
+    .title-font {
+		font-size: 30px;
+		position: relative;
+		top: 4px;
+		/*margin: 0px;
+		margin-left: 20px;
+		display: inline-block;*/
+	}
+	
+	.title-img {
+		width: 50px;
+	}
+	
+	.fixed-top-menu {
+		min-height: 75px;
+	}
+
+	.main-content {
+		padding-top: 75px;
+	}
+}
+
