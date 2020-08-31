@@ -275,7 +275,7 @@ span.level1 {
     margin-bottom: 5px;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 1024px) {
     .title-font {
 		font-size: 30px;
 		position: relative;
